@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "plugins": [
+    "import",
+    "node"
+  ],
+  "extends": [
+    "semistandard",
+    "plugin:import/recommended",
+    "plugin:node/recommended"
+  ],
+  "rules": {
+    "node/no-unpublished-require": 0
+  },
+  "env": {
+    "node": true,
+    "commonjs": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  }
+}
