@@ -2,6 +2,8 @@
 
 > Backend test made for Bipi by Andrés Brugarolas Martínez
 
+[Hosted at Heroku!](https://bruga-car-rental-catalog.herokuapp.com/)
+
 ## Build Setup
 
 ``` bash

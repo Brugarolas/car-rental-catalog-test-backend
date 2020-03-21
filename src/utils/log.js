@@ -18,5 +18,10 @@ const logRequest = (origin) => {
   log(`Incoming request (${originMessage})`);
 };
 
+const logError = (error) => {
+  console.error(`${currentTime()} -`, error);
+};
+
 exports.log = log;
 exports.logRequest = logRequest;
+exports.logError = logError;
