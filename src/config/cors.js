@@ -10,7 +10,7 @@ const corsOptions = {
     if (!origin) return callback(null, true); // Borwser, Mobile Apps, Post, Curl requests etc... has no origin
 
     if (!whitelist.includes(origin)) { // CORS policy for our site does not allow specified origin
-      return callback(new Error(`Origin tot allowed by CORS (${origin})`), false);
+      return callback(new Error(`Origin not allowed by CORS (${origin})`), false);
     }
 
     return callback(null, true);
